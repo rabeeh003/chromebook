@@ -1,0 +1,269 @@
+* {
+    color: rgb(133, 133, 133);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px 3px;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 4;
+}
+
+.logo {
+    padding: 7px 10px;
+    display: flex;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.logo .name {
+    padding: 7px 0 0 5px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.selections {
+    border: none;
+    background-color: #fff;
+    padding: 5px 0 0 20px;
+    font-size: 15px;
+}
+
+.selections .op {
+    padding: 90px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text {
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.sub-text {
+    font-size: 20px;
+    width: 620px;
+}
+
+.container img {
+    width: 120%;
+}
+
+.con-two {
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.one-side {
+    margin-top: 150px;
+    margin-left: 150px;
+    height: 90vh;
+}
+
+
+.con-two .main-text {
+    color: rgb(255, 191, 0);
+    padding-bottom: 10px;
+}
+
+.con-two .sub-text {
+    line-height: 30px;
+}
+
+.con-two img {
+    height: 85vh;
+    position: absolute;
+    right: 0;
+}
+
+.one-side .butten {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(133, 133, 133);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.butten:hover {
+    background-color: rgb(0, 72, 255);
+}
+
+.con-three {
+    margin: 30px 60px 0 120px;
+    display: flex;
+    padding-top: 2px;
+
+}
+
+.con-three img {
+    height: 80vh;
+}
+
+.con-three .main-text {
+    color: rgb(0, 72, 255);
+    line-height: 100px;
+}
+
+.con-three .sub-text {
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.con-three .butten {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(133, 133, 133);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.con-three .butten:hover {
+    background-color: rgb(0, 72, 255);
+}
+
+.con-four {
+    width: 100%;
+    position: relative;
+}
+
+.con-four .top-side {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.con-four .main-text {
+    color: rgb(0, 218, 109);
+}
+
+.con-four img {
+    width: 100%;
+    padding-top: 8%;
+}
+
+.con-five {
+    width: 100%;
+    height: 80vh;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+}
+
+.con-five .top-side {
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.ret {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.con-five .main-text {
+    font-size: 80px;
+}
+
+.top-side .sub-text {
+    line-height: 30px;
+}
+
+.bottum{
+    width: 60%;
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottum .company{
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.company img{
+    align-items: center;
+    height: 45px;
+    padding-top: 40px;
+}
+
+.con-six{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.con-six .top-side{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #dedede solid 1px;
+}
+
+.top-side .section{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.section .item{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.item:hover{
+    color: rgb(0, 72, 255);
+}
+
+.section .hed{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: #dededeb3 solid 1px;
+}
+
+.bottumtab{
+    display: flex;
+    margin: 0px 0 15px 200px;
+    position: relative;
+}
+
+.bot{
+    padding-right: 30px;
+    color: black;
+}
+
+.lang{
+    position: absolute;
+    right: 200px;
+
+}
